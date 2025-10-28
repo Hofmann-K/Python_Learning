@@ -2,39 +2,40 @@
 Milestone 1, Lesson 3: Challenge, create a simple calcultator
 '''
 
-is_valid = False
+# Prompt the user for a number until they enter a valid one
+def get_number(prompt):
+    while True:
+        try:
+            return float(input(prompt))  # Allow decimals for flexibility
+        except ValueError:
+            print("Invalid input. Please enter a valid number.")
 
-while is_valid == False:
-    try:
-        user_num_1 = int(input("Please enter a number to perform a math operation on: "))
-        is_valid = True
-    except ValueError:
-        print("Please enter a valid number (any non decimal integer)")
+# Prompt the user for a valid operation symbol
+def get_operation():
+    valid_ops = ['+', '-', '*', '/']
+    while True:
+        op = input("Enter an operation (+, -, *, /): ")
+        if op in valid_ops:
+            return op
+        print("Invalid operation. Try again.")
 
-is_valid = False
-while is_valid == False:
-    try:
-        user_num_2 = int(input("Please enter a second number to perform a math operation on: "))
-        is_valid = True
-    except ValueError:
-        print("Please enter a valid number (any non decimal integer)")
+# Perform calculation based on operation
+def calculate(num1, num2, op):
+    if op == '+':
+        return num1 + num2
+    elif op == '-':
+        return num1 - num2
+    elif op == '*':
+        return num1 * num2
+    elif op == '/':
+        if num2 == 0:
+            return "Error: Division by zero is not allowed."
+        return num1 / num2
 
-is_valid = False
-while is_valid == False:
-    user_operation = input("Enter the symbol of the math operation you would like to perform (+, -, *, /): ")
+# Main
+num1 = get_number("Enter the first number: ")
+num2 = get_number("Enter the second number: ")
+op = get_operation()
 
-    if (user_operation == '+' or '-' or '*' or '/'):
-        is_valid = True
-    else:
-        user_operation = input("Operation not valid. Please enter a different one: ")
-
-if user_operation == '+':
-    output = user_num_1 + user_num_2
-elif user_operation == '-':
-    output = user_num_1 - user_num_2
-elif user_operation == '*':
-    output = user_num_1 * user_num_2
-else:
-    output = user_num_1 / user_num_2
-
-print("Result:", output)
+result = calculate(num1, num2, op)
+print(f"\nResult: {num1} {op} {num2} = {result}")
