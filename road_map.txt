@@ -1,0 +1,210 @@
+## 🧭 **Python Learning Roadmap — From Fundamentals to Machine Learning**
+
+### 🏁 **Milestone 1: Getting Set Up and Comfortable**
+
+**Goal:** Prepare your development environment, understand Git/GitHub basics, and start thinking like a Python programmer.
+
+#### Topics:
+
+1. Setting up Visual Studio Code for Python
+
+   * Extensions (Python, Jupyter, GitLens, etc.)
+   * Creating and running `.py` files
+   * Using the terminal effectively
+2. Introduction to Git and GitHub
+
+   * Initializing a repo in VS Code
+   * Committing changes
+   * Pushing and pulling
+   * Cloning repositories
+   * Branches and merges
+3. Basic Command Line and VS Code Terminal Skills
+
+   * Navigating folders
+   * Running scripts
+   * Working with virtual environments
+
+#### Projects:
+
+* **Mini Project:** Create your first repository and a small Python “Hello World” app. Practice pushing commits and updating a README.
+* **Capstone Project:** A simple **Git-tracked command-line to-do list app**. This builds terminal, Git, and Python comfort simultaneously.
+
+---
+
+### 📘 **Milestone 2: Python Fundamentals**
+
+**Goal:** Build a solid foundation in Python syntax, data types, and logic.
+
+#### Topics:
+
+1. Variables, Data Types, and Operators
+2. Strings and String Manipulation
+3. Conditionals (`if`, `elif`, `else`)
+4. Loops (`for`, `while`)
+5. Lists, Tuples, Sets, and Dictionaries
+6. Functions and Scope
+7. Error Handling and Exceptions
+8. File I/O (reading/writing files)
+
+#### Projects:
+
+* **Mini Projects:**
+
+  * Temperature converter
+  * Word frequency counter
+  * Simple password generator
+* **Capstone Project:**
+  **Ice Hockey Stats Tracker (CLI app)**
+  → Reads a CSV of hockey players, tracks goals/assists, calculates averages, and exports data.
+
+---
+
+### ⚙️ **Milestone 3: Working with Modules, Packages, and Libraries**
+
+**Goal:** Learn to use Python’s standard and third-party libraries effectively.
+
+#### Topics:
+
+1. Importing and using modules (`math`, `os`, `datetime`, etc.)
+2. Installing packages with `pip`
+3. Using `virtualenv` and environments in VS Code
+4. Intro to popular libraries:
+
+   * `numpy` (arrays, vectorized operations)
+   * `pandas` (dataframes, filtering, aggregation)
+   * `matplotlib` / `seaborn` (basic plotting)
+
+#### Projects:
+
+* **Mini Projects:**
+
+  * CSV data analysis using pandas
+  * Plot a player’s performance graph
+* **Capstone Project:**
+  **Hockey Data Analyzer:** Read and visualize NHL statistics from a CSV file using `pandas` and `matplotlib`.
+
+---
+
+### 🧩 **Milestone 4: Intermediate Python — OOP and Advanced Concepts**
+
+**Goal:** Develop deeper understanding and start writing more organized, reusable code.
+
+#### Topics:
+
+1. Object-Oriented Programming (Classes, Objects, Inheritance)
+2. Modules and Packages (creating your own)
+3. Recursion
+4. Generators and Iterators
+5. Decorators and Context Managers
+6. Working with JSON data (important for APIs)
+
+#### Projects:
+
+* **Mini Projects:**
+
+  * Class-based player and team system
+  * File management tool (organizes folders automatically)
+* **Capstone Project:**
+  **Cybersecurity Password Manager:**
+  Store and retrieve encrypted passwords, using OOP principles and file handling.
+
+---
+
+### 🌐 **Milestone 5: APIs and Web Data**
+
+**Goal:** Learn to interact with online data using APIs and Python’s request libraries.
+
+#### Topics:
+
+1. HTTP basics (GET, POST)
+2. Using `requests` and `json` to call APIs
+3. Authentication and headers
+4. Handling API errors
+5. Parsing and storing fetched data
+
+#### Projects:
+
+* **Mini Projects:**
+
+  * Weather forecast app
+  * NHL API player stats fetcher
+* **Capstone Project:**
+  **Hockey Analytics Dashboard (with API):**
+  Fetch real-time player stats from the NHL API and visualize them with `matplotlib`.
+
+---
+
+### 🧠 **Milestone 6: Introduction to Machine Learning**
+
+**Goal:** Learn the foundations of machine learning and understand scikit-learn’s workflow.
+
+#### Topics:
+
+1. What is Machine Learning? (concepts + intuition)
+2. Data preprocessing with `pandas` and `sklearn`
+3. Feature scaling, encoding, and splitting data
+4. Basic models:
+
+   * Linear Regression
+   * Logistic Regression
+   * Decision Trees
+   * k-NN
+5. Model evaluation (accuracy, precision, recall, etc.)
+6. Introduction to `XGBoost` and model tuning
+
+#### Projects:
+
+* **Mini Projects:**
+
+  * Predict hockey player performance based on stats
+  * Simple cybersecurity anomaly detector
+* **Capstone Project:**
+  **Player Performance Predictor:**
+  Use real-world player stats (from CSV or API) to predict next-game goals or performance with `sklearn` and `XGBoost`.
+
+---
+
+### 🚀 **Milestone 7: Advanced Topics and Real-World Practice**
+
+**Goal:** Work on larger projects that integrate data, ML, APIs, and version control.
+
+#### Topics:
+
+1. Model deployment basics
+2. Using APIs with ML models
+3. Intro to Flask or FastAPI (to serve models)
+4. GitHub collaboration (branches, pull requests, merge conflicts)
+5. Documentation and best practices
+
+#### Projects:
+
+* **Mini Projects:**
+
+  * Deploy a simple model API with Flask
+  * Collaborative GitHub workflow (create, review, merge)
+* **Capstone Project:**
+  **Cyber Threat Detection API:**
+  Train a model to classify network activity as safe or malicious, then deploy it as an API using Flask or FastAPI.
+
+---
+
+### 🧩 **Final Stage: Portfolio and Career Readiness**
+
+**Goal:** Consolidate everything you’ve learned into a strong, public-facing profile.
+
+#### Topics:
+
+1. GitHub portfolio organization
+2. Writing good READMEs and documentation
+3. Code commenting and style (PEP8)
+4. Project packaging and sharing
+5. Optional: Resume and project presentation tips
+
+#### Final Project:
+
+**End-to-End Portfolio Project (choose one):**
+
+* **Hockey Data Insights Web App:** Data collection, cleaning, analysis, visualization, and ML predictions.
+* **Cybersecurity Event Classifier API:** Fetch log data, preprocess, detect anomalies, and deploy.
+
+---
